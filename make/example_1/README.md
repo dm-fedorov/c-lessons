@@ -1,4 +1,4 @@
-# Использование утилиты make
+### Использование утилиты make
 
-<blockquote>make</blockquote>
+<blockquote>$ make</blockquote>
 
