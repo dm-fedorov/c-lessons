@@ -5,7 +5,7 @@
 
 int main(){
 	char w[] = "abcde"; // 3 - имя массивая не является переменной
-	char *sp = "111111."; // x=3
+	const char *sp = "111111."; // x=3
  
 	puts(MSG);
 	puts(w);
@@ -15,11 +15,7 @@ int main(){
     w[1]='k';
     puts(w);
 
-    //sp[3]='4';
-
     sp=w;
-
-   //sp[3]='4';
 
     puts(sp);
 

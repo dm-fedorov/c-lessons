@@ -13,6 +13,6 @@ int main(){
 
 	char n[]="Hello";
  
- printf("%d\n", my_strlen(n));
+ 	printf("%d\n", my_strlen(n));
 
 }

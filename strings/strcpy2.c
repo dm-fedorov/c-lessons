@@ -12,7 +12,7 @@ int main(){
 	char n1[]="Hello";
 	char n2[10];
  
- my_strcpy(n2, n1);
- printf("%s\n", n2);
+ 	my_strcpy(n2, n1);
+ 	printf("%s\n", n2);
 
 }
