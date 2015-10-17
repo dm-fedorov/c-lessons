@@ -14,7 +14,7 @@ int main(){
 	island i1 = {"Name1", "9:00", "18:00", NULL};
 	island i2 = {"Name2", "10:00", "16:00", NULL};
 
-	i1.next = &i2;
+	i1.next = &i2; // присваиваем адрес!!! 
 
 	display(&i1);
 
