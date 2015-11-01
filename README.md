@@ -64,12 +64,13 @@
 
 Пример описания дерева:
 
+```
 struct item {
 	int data;
 	struct item *left, *right;
 };
 struct item *root = NULL;
-
+```
 Выполните проверку с помощью утилиты valgrind: http://cppstudio.com/post/4348/
 
 
@@ -80,8 +81,10 @@ struct item *root = NULL;
 Реализуйте архиватор и деархиватор, работающий по методу Хаффмана. 
 Интерфейс работы программы (пример):
 
+```
 $ ./huffman archive.huf file.txt
 $ ./huffman -d archive.huf unpacked.txt
+```
 
 Для проверки корректности архивации и деархивации попробуйте запаковать и распаковать двоичный файл (например, /bin/bash) и при помощи программы diff проверить работу программы.
 
@@ -93,11 +96,12 @@ $ ./huffman -d archive.huf unpacked.txt
 
 Пример описания дерева для этой задачи:
 
+```
 struct node{
 	char *word;
 	int count;
 	struct item *left, *right;
 }; 
 struct node *root = NULL;
-
+```
 Выполните проверку с помощью утилиты valgrind: http://cppstudio.com/post/4348/
