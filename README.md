@@ -64,13 +64,11 @@
 
 Пример описания дерева:
 
-<blockquote>
 struct item {
 	int data;
 	struct item *left, *right;
 };
 struct item *root = NULL;
-</blockquote>
 
 Выполните проверку с помощью утилиты valgrind: http://cppstudio.com/post/4348/
 
@@ -95,13 +93,11 @@ $ ./huffman -d archive.huf unpacked.txt
 
 Пример описания дерева для этой задачи:
 
-<blockquote>
 struct node{
 	char *word;
 	int count;
 	struct item *left, *right;
 }; 
 struct node *root = NULL;
-</blockquote>
 
 Выполните проверку с помощью утилиты valgrind: http://cppstudio.com/post/4348/
