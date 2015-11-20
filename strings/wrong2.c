@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 char *duplicate(const char *p){
-	char *q = (char *) malloc(20);
+	char *q = (char *) malloc(20*sizeof(char));
 
 	strcpy(q, p);
 	printf("into fun: %s\n", q);
