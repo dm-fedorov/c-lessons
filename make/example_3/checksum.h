@@ -1,1 +1,0 @@
-int checksum(char *message);
