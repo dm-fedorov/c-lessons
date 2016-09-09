@@ -1,0 +1,2 @@
+import ownmod
+ownmod.echo()
