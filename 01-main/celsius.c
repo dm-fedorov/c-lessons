@@ -23,4 +23,5 @@ int main(){
 		fahr = fahr + step;
 	}
 
+	return 0;
 }

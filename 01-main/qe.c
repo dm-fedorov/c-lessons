@@ -1,6 +1,6 @@
-// echo "1 -2 1" | ./qe
-// man sqrt
-// man 3 printf
+
+/* gcc -Wall -g qe.c -o qe */
+
 
 #include <stdio.h>
 #include <math.h>

@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-int main(){
-	
-	printf("Hello, world\n"); // в качестве аргумента передаем строковую константу (строковый литерал)
+/* gcc -Wall -g hello.c -o hello */
 
-	return 0;
+int main(){
+    printf("Hello, world\n");
+    return 0;
 }
