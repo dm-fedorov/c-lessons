@@ -6,7 +6,7 @@ int main(){
   char name[40];
 
   scanf("%d", &x);
-  scanf("%39s\n", name);
+  scanf("%39s", name);
 
   printf("%d\n", x);
   printf("%s\n", name);

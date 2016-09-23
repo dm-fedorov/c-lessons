@@ -6,6 +6,9 @@ int main(){
 
   printf("Enter food:");
 
+  // gets();
+
+
   fgets(food, sizeof(food), stdin);
 
   puts(food);
