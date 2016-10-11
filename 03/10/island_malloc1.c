@@ -34,7 +34,8 @@ island *p_island1 = create(name);
 p_island0->next = p_island1;
 
 display(p_island0);
-
+free(p_island0);
+free(p_island1);
 return 0;
 
 }
